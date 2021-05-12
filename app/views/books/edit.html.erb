@@ -18,5 +18,5 @@
   </div>
   <div class="actions"><%= f.submit 'Update Book' %></div>
 <% end %>
-<%= link_to "show", show_books_path(@book.id) %> |
+<%= link_to "show", book_path(@book.id) %> |
 <%= link_to "Back", books_path %>
